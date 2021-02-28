@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Breakout Clone by Cameron</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <main id="main">
+      <h1>Electron Breakout</h1>
+      <p>By Cameron Samuels</p>
+      <a href="game.html">Start</a>
+    </main>
+    <main id="how">
+      <h1>How To Play</h1>
+      <h3>Objective</h3>
+      <ul>
+        <li>Use the paddle to direct the ball.</li>
+        <li>Destroy all the bricks.</li>
+        <li>Win all 5 levels with the shortest play time.</li>
+      </ul>
+      <h3>Controls</h3>
+      <p>
+        <kbd>Left Arrow</kbd>
+        Move Paddle Left
+      </p>
+      <p>
+        <kbd>Right Arrow</kbd>
+        Move Paddle Right
+      </p>
+      <h3>Types of Bricks</h3>
+      <ol>
+        <li>One hit to break</li>
+        <li>Two hits to break</li>
+        <li>Increases another brick</li>
+        <li>May decrease another brick</li>
+        <li>Three hits to break</li>
+      </ol>
+    </main>
+    <main id="scores">
+      <h1>High Scores</h1>
+      <p>Displaying the top 3 scores</p>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Score</th>
+        </tr>
+        <tr>
+          <td>Madmax</td>
+          <td>1:38</td>
+        </tr>
+        <tr>
+          <td>Mike</td>
+          <td>3:56</td>
+        </tr>
+        <tr>
+          <td>Will</td>
+          <td>4:12</td>
+        </tr>
+      </table>
+    </main>
+    <main id="credits">
+      <h1>Credits</h1>
+      <h3>Development</h3>
+      <p>Electron framework with JS, HTML, CSS, and Canvas</p>
+      <h3>Production</h3>
+      <p>Made for SLHS Computer Science Ind. Studies (Mr. Nutt)</p>
+      <h3>Release</h3>
+      <p>Version 1.0 (Jan 2021)</p>
+      <h3>Source Code</h3>
+      <p>View on GitHub @cameronsamuels</p>
+    </main>
+    <div id="buttons">
+      <a href="#">Go Back</a>
+      <a href="#how">How To Play</a>
+      <a href="#scores">Scores</a>
+      <a href="#credits">Credits</a>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
